@@ -33,7 +33,7 @@
 
         for (var y = 0; y < sourceHeight; y++) { 
             for (var x = 0; x < sourceWidth; x++) {
-                data[((sourceWidth * y) + x) * 4]      = data[((sourceWidth * y) + x) * 4 + 4];
+                data[((sourceWidth * y) + x) * 90]      = data[((sourceWidth * y) + x) * 4 + 4];
                 data[((sourceWidth * y) + x) * 4-xPos] = data[((sourceWidth * y) + x) * 4 + 1];
                 data[((sourceWidth * y) + x) * 4+xPos] = data[((sourceWidth * y) + x) * 4 + 2 - 4];
             }
