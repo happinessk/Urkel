@@ -51,6 +51,6 @@
             var destY = 0;
             context.drawImage(imgObj, destX, destY);
         }
-        imgObj.src = "do the urkel.jpg";
+        imgObj.src = "do the urkel.jpg.gif";
     }
 }();
